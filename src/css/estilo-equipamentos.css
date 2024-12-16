@@ -1,0 +1,65 @@
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.btn-voltar {
+    background-color: #ccc;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+main .materiais {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+span:not(.fonte) {
+    color: black;
+    text-shadow: none;
+}
+
+span.fonte {
+    color: red;
+    font-weight: bold;
+    font-size:1rem
+}
+
+.card {
+    width: 300px;  
+    box-shadow: 1px 3px 5px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    gap: 1.5rem;
+    padding-bottom: 3px;
+    border-radius: 7px;
+    flex: auto;
+}
+
+.card h3 {
+    background-color: red;
+    color: #fff;
+    width: 100%;
+    text-shadow: 1px 2px 3px black;    
+}
+
+.card img {
+    width: 250px;
+}
+
+.card .kit {
+    width: 100%;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.card .kit p {
+    background-color: black;
+    color: #fff;
+}

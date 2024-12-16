@@ -1,0 +1,52 @@
+h1,
+h2,
+h3 {
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.header-inicio {
+    background:linear-gradient(red, #fff);
+    color: #fff;
+    margin-bottom: 10px;
+}
+.header-inicio .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px 3px 1px;
+}
+
+.header-inicio .logo .navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    gap: .3rem;
+}
+
+.header-inicio .logo .navegacao a {
+    padding: 15px 30px ;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    box-shadow: 0px 1px 5px black;
+    border-radius: 7px;
+    transition: all .3s;
+}
+
+.header-inicio .logo .navegacao a:hover {
+    background:linear-gradient( red, rgb(253, 111, 111) 5%);
+    color: #fff;
+}
+
+.header-inicio h1 {
+    background-color: #fff;
+    color: red;
+    text-shadow: 2px 2px 7px #000;
+    width: 100%;
+    box-shadow: 0px 1px 7px black;
+    font-size: 2.5rem;
+}

@@ -1,0 +1,35 @@
+@media (max-width:768px) {
+    .header-inicio img{
+        border-radius: 7px;
+    }
+
+    .header-inicio {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-inicio .logo {
+        flex-direction: column;
+    }
+
+    .header-inicio .logo .navegacao{
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+
+    .header-inicio .logo .navegacao a {
+        padding: 5px 15px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .header-inicio h1 {
+        font-size: 1rem;
+    }
+
+    .geral .equipamentos a {
+        padding: 5px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
