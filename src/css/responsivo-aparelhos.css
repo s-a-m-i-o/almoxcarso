@@ -1,0 +1,29 @@
+@media (max-width:768px) {
+    .card .lado-lado img {
+        width: 350px;
+    }
+
+    .lado-lado {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lado-lado .item-equipamento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lado-lado .item-equipamento p {
+        text-align: center;
+    }
+
+    .lado-lado .info {
+        text-align: center;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 7px;
+    }
+}

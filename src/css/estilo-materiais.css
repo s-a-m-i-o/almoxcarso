@@ -1,0 +1,12 @@
+.card .lado-lado {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-color: #ccc;
+    padding: 30px;
+    border-radius: 7px;
+}
+
+.card .lado-lado img {
+    width: 450px;
+}

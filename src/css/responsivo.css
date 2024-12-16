@@ -32,4 +32,8 @@
         font-size: 1rem;
         font-weight: bold;
     }
+
+    .gambiarra {
+        height: 100vh;
+    }
 }

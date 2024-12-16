@@ -4,6 +4,10 @@ main {
     padding: 5px;
 }
 
+.gambiarra {
+    height: 60vh;
+}
+
 .btn-voltar {
     background-color: #ccc;
     padding: 5px 15px;
@@ -53,13 +57,16 @@ span.fonte {
     width: 250px;
 }
 
-.card .kit {
-    width: 100%;
-    background-color: #ccc;
-    text-align: center;
+
+
+footer {
+    background: linear-gradient(#fff,red);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
 }
 
-.card .kit p {
-    background-color: black;
-    color: #fff;
+footer p {
+    text-align: center;
 }
